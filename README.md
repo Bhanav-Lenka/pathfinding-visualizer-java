@@ -66,3 +66,46 @@ Make sure you have **Java JDK 8 or above** installed.
 Check version:
 ```bash
 java -version
+Download or Clone the Project
+git clone https://github.com/Bhanav-Lenka/pathfinding-visualizer-java.git
+
+3️. Open the Project
+You can open it in:
+IntelliJ IDEA
+Eclipse
+VS Code (with Java extension)
+Or run using terminal
+
+4️. Compile the Source Code
+Navigate to the src folder:
+
+cd src
+javac pathvisualizer/*.java
+
+5️. Run the Project
+java pathvisualizer.Main
+
+
+Instructions for Testing
+
+Launch the application
+Use your mouse to click & drag to draw walls on the grid
+Select any algorithm from the right:
+Run BFS
+Run DFS
+Run Dijkstra
+Run A*
+Watch the path (yellow) appear
+
+Check the stats panel for:
+
+Algorithm name
+Path length
+Status
+Try blocking the end node to test the "No path found" scenario
+Use Reset to clear the grid
+
+Bhanav Lenka
+BTech CSE CORE
+
+
